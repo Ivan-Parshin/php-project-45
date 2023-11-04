@@ -1,5 +1,10 @@
 {
     "name": "hexlet/code",
+    "description": "This is my awesome project",
+    "license": "proprietary",
+    "bin": [
+        "bin/brain-games"
+    ],
     "autoload": {
         "psr-4": {
             "Hexlet\\Code\\": "src/"

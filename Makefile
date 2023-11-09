@@ -8,3 +8,5 @@ validate:
 	composer validate
 lint:
 	composer exec --verbose phpcs -- --standard=PSR12 src tests
+brain-calc:
+	./bin/brain-calc

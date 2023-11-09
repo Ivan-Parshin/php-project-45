@@ -9,14 +9,14 @@ const DESCRIPTION = 'What is the result of the expression?';
 function calculate(int $first, int $second, string $sign): string
 {
     switch ($sign) {
-    case '+':
-        return $first + $second;
-    case '-':
-        return $first - $second;
-    case '*':
-        return $first * $second;
-    default:
-        throw new \Error("Incorrect sign: '{$sign}'");
+        case '+':
+            return $first + $second;
+        case '-':
+            return $first - $second;
+        case '*':
+            return $first * $second;
+        default:
+            throw new \Error("Incorrect sign: '{$sign}'");
     }
 }
 
